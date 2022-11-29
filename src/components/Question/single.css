@@ -1,0 +1,17 @@
+.sq__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__question{
+    box-shadow: 5px 10px 8px #888888;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    border-radius: 25px;
+    width: 85%;
+    border: 1px solid rgb(177, 175, 175);
+}
+
+.btn-qa{
+    font-size: 2rem;
+}

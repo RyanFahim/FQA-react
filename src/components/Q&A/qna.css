@@ -1,0 +1,45 @@
+:root{
+    --bg-color: rgb(146, 168, 209);
+}
+
+body{
+    background: #8BD3E6;
+}
+
+
+
+.container__qna{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 2rem;
+    border: 1px solid rgb(164, 157, 157);
+    padding: 1rem;
+    background-color: white;
+    color: black ;
+    border-radius: 15px;
+    width: 60%;
+    /* height: 90%; */
+    margin: auto;
+    /* align-items: center; */
+}
+
+.q__title{
+    display: grid;
+    justify-content: center;
+}
+.q__title-h3{
+    margin: auto;
+}
+
+@media  screen and (max-width:850px) {
+    .container__qna{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 0;
+       
+    }
+}
+
+
+
